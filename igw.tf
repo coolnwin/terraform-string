@@ -1,4 +1,4 @@
-#create Internet gateway
+#create Internet gateway test
 resource "aws_internet_gateway" "Proj-IGW" {
     vpc_id = aws.vpc.Proj.id
     tags = {
