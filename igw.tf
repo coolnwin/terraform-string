@@ -6,7 +6,7 @@ resource "aws_internet_gateway" "Proj-IGW" {
     }
 }
 
-# Create EIP for the IGW
+# Create EIP for the IGW  learning purpose
 
 resource "aws_eip" "Proj-EIP" {
   vpc = true
